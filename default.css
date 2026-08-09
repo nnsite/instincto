@@ -162,3 +162,10 @@ main > dl dd {
 ul, ol {
 	padding-left:0;
 	list-style-position:inside}
+
+blockquote.longblock {
+	padding-left: 1ex;
+	border-left: 2px solid Grey;
+	font-size: 0.95em;
+	line-height: 1.6;
+}
