@@ -170,3 +170,6 @@ blockquote.longblock {
 	line-height: 1.6;
 }
 figure {clear:both}
+p:first-child {margin-top:0}
+p:last-of-type {margin-bottom:0}
+[role="doc-endnotes"] li>p:first-child {display:inline}
