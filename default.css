@@ -173,3 +173,10 @@ figure {clear:both}
 p:first-child {margin-top:0}
 p:last-of-type {margin-bottom:0}
 [role="doc-endnotes"] li>p:first-child {display:inline}
+main a:is(:hover,:focus) {background:canvas;filter:invert(1)}
+*:focus {outline:none}
+a:not([rel*=external]):empty {text-decoration:unset}
+main a:not([rel*=external]):empty::after {
+	content: "★";
+	line-height:0;
+	vertical-align:super}
